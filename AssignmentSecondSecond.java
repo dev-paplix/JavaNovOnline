@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Assignment {
+public class AssignmentSecondSecond {
 
     private class Car {
         private String model;
@@ -20,15 +20,15 @@ public class Assignment {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Assignment assignment = new Assignment();
+        AssignmentSecondSecond assignment = new AssignmentSecondSecond();
 
         Car car1 = assignment.getCarDetails(scanner);
         Car car2 = assignment.getCarDetails(scanner);
         Car car3 = assignment.getCarDetails(scanner);
-        
 
         double averagePrice = (car1.getPrice() + car2.getPrice() + car3.getPrice()) / 3;
-        System.out.println("The average price of the cars is: " + averagePrice);
+        String result = (averagePrice > 100000) ? "expensive" : (averagePrice <= 99999 && averagePrice >= 50000) ? "normal" : (averagePrice < 49999) ? "cheap" : "unknown price range";
+        System.out.println("The average price of the cars is: " + averagePrice + " which is " + result);
     }
 
     private Car getCarDetails(Scanner scanner) {

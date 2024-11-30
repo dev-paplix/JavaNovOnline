@@ -4,8 +4,14 @@
 "" double quotation
 '' single quotation
 / slash
+// double slash
+* astrix
 # hash
 $ dollar sign
 . dot
 : colon
 ; semi colon
+@ at or atsigned
+, comma
+! exclamation mark
+? question mark
