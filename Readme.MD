@@ -5,3 +5,5 @@
 2.1. Use the code in assignment 2 and use if and else statement so, if the average car prices are higher than the 100,000 the output shows the cars are expensive if its between 50,000 to 99,999 the output shows the cars are normal price and if it is less than 49,999 it shows the cars are cheap
 
 2.2. Do the same as 2.1 just instead of if and else statement use ternary operator
+
+3. Create a loop that uses the for loop whtich begins from the number 1 and adds single number each. it continues till it breaks at number 26. Use break at number number 26 and continue in number 14
