@@ -7,3 +7,5 @@
 2.2. Do the same as 2.1 just instead of if and else statement use ternary operator
 
 3. Create a loop that uses the for loop whtich begins from the number 1 and adds single number each. it continues till it breaks at number 26. Use break at number number 26 and continue in number 14
+
+4. Create a Matrix with 3 rows and 3 columns which contains the car models and prices then fetch the car which values above 50,000 RM and portray it in the terminal
