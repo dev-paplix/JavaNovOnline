@@ -9,3 +9,5 @@
 3. Create a loop that uses the for loop whtich begins from the number 1 and adds single number each. it continues till it breaks at number 26. Use break at number number 26 and continue in number 14
 
 4. Create a Matrix with 3 rows and 3 columns which contains the car models and prices then fetch the car which values above 50,000 RM and portray it in the terminal
+
+5. Use scanner to get the prices of the 5 different cars from the terminal and if the value of the car is equal or above 70000 RM, put them in the matrix of 2*2 which shows the value, "VIP", "2024", "pre-order" and if the value is below the 70000 put them in the matrix of 2*2 which shows the value, "Cheap", "old", "for sale" 
