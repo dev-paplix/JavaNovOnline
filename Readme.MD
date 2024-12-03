@@ -13,3 +13,5 @@
 5. Use scanner to get the prices of the 5 different cars from the terminal and if the value of the car is equal or above 70000 RM, put them in the matrix of 2*2 which shows the value, "VIP", "2024", "pre-order" and if the value is below the 70000 put them in the matrix of 2*2 which shows the value, "Cheap", "old", "for sale" 
 
 6. Use Scanner to get the day number and the result of the switch must be portrayed in the console.
+
+7. Create new file that the scanner get the value for the switch, if the user choose 1 he/she will enter stage that he/she needs to enter a value for 3*4 matrix, if the user choose 2 he/she will enter the stage that he/she need to enter values for 2*3 matrix. The result of the user must be shown regardless of the option.
