@@ -11,3 +11,5 @@
 4. Create a Matrix with 3 rows and 3 columns which contains the car models and prices then fetch the car which values above 50,000 RM and portray it in the terminal
 
 5. Use scanner to get the prices of the 5 different cars from the terminal and if the value of the car is equal or above 70000 RM, put them in the matrix of 2*2 which shows the value, "VIP", "2024", "pre-order" and if the value is below the 70000 put them in the matrix of 2*2 which shows the value, "Cheap", "old", "for sale" 
+
+6. Use Scanner to get the day number and the result of the switch must be portrayed in the console.
