@@ -15,3 +15,10 @@
 6. Use Scanner to get the day number and the result of the switch must be portrayed in the console.
 
 7. Create new file that the scanner get the value for the switch, if the user choose 1 he/she will enter stage that he/she needs to enter a value for 3*4 matrix, if the user choose 2 he/she will enter the stage that he/she need to enter values for 2*3 matrix. The result of the user must be shown regardless of the option.
+
+8. Pass the person age and name and hight and weight using scanner, use the encapsulation to have set and get data and use the following formula to calculate bmi:
+(height-100)/weight
+
+The final result in console must be the following:
+
+The person name is ${genrated_name} and he/she is ${generated_age} years old and his/her bmi is ${calculated_value_of_bmi}
