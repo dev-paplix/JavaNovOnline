@@ -22,3 +22,5 @@
 The final result in console must be the following:
 
 The person name is ${genrated_name} and he/she is ${generated_age} years old and his/her bmi is ${calculated_value_of_bmi}
+
+9. Use the same code in assignment 7 this time. For both option 1 and option 2 the user must enter 12 values. If the user choose option 1 he/she will get the proper output but if the user chooses the option 2, he/she will get ArrayIndexOutOfBoundsException error.
