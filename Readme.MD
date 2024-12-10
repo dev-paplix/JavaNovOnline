@@ -29,3 +29,5 @@ The person name is ${genrated_name} and he/she is ${generated_age} years old and
 if the user enters Toyota, the output should be 25,000RM
 if the user enters BMW, the output should be 85,000RM
 if the user enters Tesla, the output should be 75,000RM
+
+11. Same as the excercise 10 but this time instead of polymorphism, use the abstract and there should be a business slogan on top of the price for each car 
