@@ -31,3 +31,11 @@ if the user enters BMW, the output should be 85,000RM
 if the user enters Tesla, the output should be 75,000RM
 
 11. Same as the excercise 10 but this time instead of polymorphism, use the abstract and there should be a business slogan on top of the price for each car 
+
+12. Same as the excercise 10 but this time instead of polymorphism, use the interface and there should be this meassage for Tesla:
+
+"Yes Tesla is the best electric car"
+
+there should be this meassage for BMW:
+
+"BMW is one of the coolest car in the world"
