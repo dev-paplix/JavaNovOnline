@@ -24,3 +24,8 @@ The final result in console must be the following:
 The person name is ${genrated_name} and he/she is ${generated_age} years old and his/her bmi is ${calculated_value_of_bmi}
 
 9. Use the same code in assignment 7 this time. For both option 1 and option 2 the user must enter 12 values. If the user choose option 1 he/she will get the proper output but if the user chooses the option 2, he/she will get ArrayIndexOutOfBoundsException error.
+
+10. Make a run-time polymorphism, has 3 extends for the cars. The user is supposed to enter the car name in the terminal and this is going to be output:
+if the user enters Toyota, the output should be 25,000RM
+if the user enters BMW, the output should be 85,000RM
+if the user enters Tesla, the output should be 75,000RM
