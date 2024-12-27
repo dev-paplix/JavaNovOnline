@@ -39,3 +39,6 @@ if the user enters Tesla, the output should be 75,000RM
 there should be this meassage for BMW:
 
 "BMW is one of the coolest car in the world"
+
+# New Assignment
+

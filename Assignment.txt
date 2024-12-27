@@ -1,0 +1,95 @@
+Scenario: Library Management System
+You have been hired to develop a basic Library Management System that can manage users, books, and book borrowings. You will use various Java techniques like encapsulation, methods, loops, arrays, decision constructs, and more to implement the system.
+
+Assignment Structure
+Your assignment consists of the following tasks. Implement each task in the order given to build the complete Library Management System.
+
+Part 1: Encapsulation and Classes
+
+Task 1: Create a User Class
+
+Create a class called User with the following private fields:
+String name
+int age
+ArrayList<String> borrowedBooks (an empty list of books the user has borrowed)
+Provide getter and setter methods for name and age.
+Add a method borrowBook(String bookTitle) that:
+Adds the book title to the borrowedBooks list.
+Add a method returnBook(String bookTitle) that:
+Removes the book from the list if the user has borrowed it, and prints a message indicating success or failure.
+Add a method printBorrowedBooks() that prints all books the user has borrowed.
+Part 2: Arrays and String Manipulation
+
+Task 2: Create a Book Class
+
+Create a class called Book with the following fields:
+String title
+String author
+String isbn
+boolean isAvailable (true if the book is available for borrowing)
+Add a constructor to initialize these fields.
+Implement a method printBookInfo() that prints all the book details in the format:
+
+Title: [title], Author: [author], ISBN: [isbn], Available: [true/false]
+Task 3: Create a Library Class
+
+Create a class called Library that:
+Has a private ArrayList<Book> to store all the books in the library.
+Implements a method addBook(Book book) to add books to the library.
+Implements a method searchByTitle(String title) that:
+Searches for books whose title contains the given string using the contains() method of the String class.
+Prints matching book titles.
+Part 3: Loops and Conditional Constructs
+
+Task 4: Implement Book Borrowing
+
+In the Library class, add a method borrowBook(User user, String title) that:
+Loops through the list of books to find one that matches the title and is available.
+If found, changes the book’s isAvailable field to false and calls the user.borrowBook(title) method to add it to the user’s borrowed books list.
+If not found or unavailable, prints an appropriate message.
+Part 4: Using Date Manipulation and Calendar
+
+Task 5: Implement Book Due Date
+
+Modify the User class:
+Add a private field Map<String, LocalDate> called borrowedBooksDueDates to store the due date of each borrowed book.
+Modify the borrowBook method to:
+Store the current date and calculate the due date (14 days from the current date) using LocalDate.now().plusDays(14).
+Add this due date to the borrowedBooksDueDates map.
+Add a method checkDueDates() that:
+Prints the due date of each borrowed book in the format:
+ 
+
+Book: [title], Due Date: [due date formatted as MMM dd, yyyy]
+
+
+Part 5: Using Operators and Decision Constructs
+
+Task 6: Overdue Books
+
+In the User class, implement a method checkOverdueBooks() that:
+Uses the ternary operator to check if any books are overdue by comparing the due date with the current date.
+Prints a list of all overdue books and a message indicating how many days they are overdue.
+
+Part 6: Arrays, ArrayLists, and Lambda Expressions
+
+Task 7: Manage Multiple Users and Books
+
+In the Library class:
+Create a method addUser(User user) to add a user to the library system.
+Create a method listAvailableBooks() that prints all available books.
+Implement a method getBorrowedBooksForAllUsers() that:
+Uses an enhanced for loop to print the borrowed books for each user.
+Modify the borrowBook method to:
+Use a lambda expression to filter and find books available for borrowing using the ArrayList of books.
+
+Part 7: Bringing It All Together
+
+Task 8: Test the Library System
+In your Main class:
+Create a Library instance.
+Add a few Book objects to the library.
+Create a few User objects and add them to the library system.
+Use the borrowBook method to allow users to borrow books.
+Test the checkDueDates() and checkOverdueBooks() methods by simulating time passing.
+Print the list of available books, borrowed books, and overdue books.
